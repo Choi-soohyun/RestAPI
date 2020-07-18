@@ -1,4 +1,4 @@
-package com.example.restfulwebservice;
+package com.example.restfulwebservice.helloworld;
 // lombok (빈클래스 만들 때 get, set, equals등등 다 자동생성이 됨.)
 
 import lombok.AllArgsConstructor;
