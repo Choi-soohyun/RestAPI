@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+// @Component로 해도 되지만 @Service라는 명확한 어노테이션이 더 좋다.
+@Service
 public class UserDaoService {
 	private static List<User> users = new ArrayList<>();
 	
